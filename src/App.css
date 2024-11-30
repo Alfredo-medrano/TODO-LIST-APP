@@ -1,0 +1,49 @@
+/* src/App.css */
+.App {
+  max-width: 600px;
+  margin: 0 auto;
+  text-align: center;
+  font-family: Arial, sans-serif;
+}
+
+h1 {
+  margin-top: 20px;
+}
+
+form {
+  margin: 20px 0;
+}
+
+input {
+  padding: 10px;
+  width: 70%;
+  font-size: 16px;
+}
+
+button {
+  padding: 10px 20px;
+  margin-left: 10px;
+  font-size: 16px;
+}
+
+.task-list {
+  text-align: left;
+}
+
+.task {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+  border-bottom: 1px solid #ccc;
+}
+
+.task span {
+  flex-grow: 1;
+}
+
+.task button {
+  background-color: red;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
